@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 from ..models import Product, Property, Category
 
-#This is a comment that will do nothing
+#This is a comment that will do nothing but joy
 
 class ProductFactory(factory.DjangoModelFactory):
     workflowlevel2_uuid = factory.Faker('uuid4')
