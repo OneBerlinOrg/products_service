@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 from ..models import Product, Property, Category
 
-
+//funny leerzeile
 class ProductFactory(factory.DjangoModelFactory):
     workflowlevel2_uuid = factory.Faker('uuid4')
     organization_uuid = factory.Faker('uuid4')
